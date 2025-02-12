@@ -1,4 +1,5 @@
 # bank.py
+# Week 2's Weekly Task
 # This program prompts the user and read in two money amounts (in cents).
 # Adds the two amounts 
 # Prints out the answer in ahuman readable format with a euro sign and a decimal point between the euro and cent of the amount
