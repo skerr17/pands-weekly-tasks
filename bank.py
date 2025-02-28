@@ -3,7 +3,7 @@
 # This program prompts the user and read in two money amounts (in cents).
 # Adds the two amounts 
 # Prints out the answer in ahuman readable format with a euro sign and a decimal point between the euro and cent of the amount
-# author: Stephen Kerr
+# Author: Stephen Kerr
 
 # Added context prompt for the user so they know what the program is doing
 print("This program will prompt you for two amounts of money in cents add them together and present the Euro value to you.")
