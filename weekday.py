@@ -25,3 +25,6 @@ else:
     print(f'{current_day_of_the_week} is a weekend day. Lets celebrate!!')
 
 
+# References: 
+# Found out how to use the datatime module from W3Bschools - Here https://www.w3schools.com/python/python_datetime.asp
+# Found this artical on how to check if an element exits in a list - Here - https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/
