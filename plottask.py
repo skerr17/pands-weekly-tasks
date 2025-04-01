@@ -28,6 +28,7 @@ plt.plot(x, y, color='red', label='h(x)=x^3')
 plt.xlabel('x')
 plt.ylabel('Frequency / h(x)')
 plt.title('Histogram of Normal Distribution and Plot of h(x)=x^3')
+
 # add legend
 plt.legend(['Normal Distribution', 'h(x)=x^3'])
 
@@ -36,6 +37,5 @@ plt.grid(True)
 
 # save plot as png
 plt.savefig('normal_dist_and_hx.png') 
-
 
 # Reference: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html

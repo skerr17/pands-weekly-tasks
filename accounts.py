@@ -29,9 +29,7 @@ elif bank_account_number_lenght >= 20:
 else:
     # get the last 4 digits of the account number
     last_4_digits = bank_account_number[-4:]
-
     # calculate the number of x characters to be displayed
     x_characters = bank_account_number_lenght - 4
-
     # print the account number in the new format
     print(f"The last 4 digits of your bank account number are: {x_characters * 'X'}{last_4_digits}")
