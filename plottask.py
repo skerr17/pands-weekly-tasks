@@ -30,7 +30,7 @@ plt.ylabel('Frequency / h(x)')
 plt.title('Histogram of Normal Distribution and Plot of h(x)=x^3')
 
 # add legend
-plt.legend(['Normal Distribution', 'h(x)=x^3'])
+plt.legend(['h(x)=x^3','Normal Distribution'])
 
 # add grid
 plt.grid(True)
