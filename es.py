@@ -1,3 +1,5 @@
+# es.py
+# # Week 7's Weekly Task
 # this program reads a text file and outputs the number of "e's" it contains 
 # Author: Stephen Kerr
 
@@ -34,7 +36,7 @@ def count_es_in_file(filename):# function that counts the "e's" in the file
             f'Which is {e_count / char_count * 100:.2f}% of all characters in the file')
     except FileNotFoundError: # if the file is not found display an error message
         print(f'Error: The File "{filename}" was not found!!')
-    except ZeroDivisionError: # due to caclulating the percentage of "e's" in the file if we get a ZeroDivisionError this means the file is empty
+    except ZeroDivisionError: # due to calulating the percentage of "e's" in the file if we get a ZeroDivisionError this means the file is empty
         print(f'Error: The File "{filename}" is empty!!')
     except Exception as e: # catch any other exception and display the error code
         print(f'Error: {e}')
@@ -48,7 +50,7 @@ if __name__ == "__main__":
 
     else:
         filename = sys.argv[1] # if the user has entered a command line argument for the filename set the FILENAME to the command line argument
-        count_es_in_file(filename) # calll the e counting function
+        count_es_in_file(filename) # call the e counting function
 
 
 # References:
