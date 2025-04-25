@@ -1,21 +1,33 @@
 # collatz.py
 # Week 4's weekly task 
-# This program prompts the user to input any positive interger
+# This program prompts the user to input any positive integer
 # And outputs the successive values of the following calculation.
 # at each step the next value by taking the current value and, if it even, divide by two
 # but if it is odd, multiply it by three and add one
 # the program will end if the current value is one 
 # Author: Stephen Kerr
 
+while True:
+    try:
+        # prompt the user for a number 
+        starting_positive_integer = int(input('Please Enter a Positive Integer: '))
 
-# prompt the user for a number 
-starting_positive_integer = int(input('Please Enter a Positive Integer: '))
+        # check if the number is positive
+        if starting_positive_integer <= 0:
+            print("The number must be a positive integer. Try again.")
+            continue  # prompt again if the input is invalid
+        break  # Exit the loop if input is valid move to the next amount
+    except ValueError:
+        # If the user enters a non-integer value, print an error message and prompt again
+        print("Invalid input. Please enter a valid positive integer.")
+
+
 
 # Save the initial value inputed by the user 
 starting_positive_integer_initial = starting_positive_integer
 
 # initial the list of successive values 
-successive_values = []
+successive_values = [starting_positive_integer,]
 
 # in a while loop check if that number is a even or odd number and apply the above rules until it is equal to 1
 while starting_positive_integer != 1:
