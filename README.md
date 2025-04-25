@@ -20,4 +20,5 @@ Throughout the semester there were weekly tasks assigned to the topics covered i
 - Week 2: **bank.py** - This program prompts the user for two Cent amounts and returns the sum amount in Euro. With additional user inout error handling.
 - Week 3: **accouts.py** - This program a 10 characther long account number and output only the last 4 digitls showing the first 6 as "X's". Also outlines assumptions where applicable and user input validation (must be an alphanumeric). 
 - Week 4: **collatz.py** - This program sks the user to input any positive interger and outputs the successive values of the following calculations if even divide by 2, if odd multiply by three and add one. The program ends when the current value is 1.
-- Wee 5: **weekday.py** - This program outputs weather or not today is a weekday. 
+- Week 5: **weekday.py** - This program outputs weather or not today is a weekday. 
+- Week 6: **squareroot.py** - This program takes a positive floating-point number as an input and outputs an approximation of its square root. Using Newton Method of estimating square roots. 

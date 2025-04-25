@@ -1,4 +1,5 @@
 # weekday.py
+# Week 5's Weekly Task
 # This program outputs whether or not today is a weekday,
 # or a weekend day. Using the datetime module to get the current date and time.
 # Author: Stephen Kerr

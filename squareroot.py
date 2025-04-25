@@ -5,12 +5,20 @@
 # The program uses Newton's method to approximate the square root of a number
 # Author: Stephen Kerr
 
+while True:
+    try:    
+        # prompt the user for a number
+        number = float(input('Please Enter a Positive Number: '))
+
+        if number <= 0:
+            print("The number must be greater than zero. Try again.")
+            continue
+        break
+    except ValueError:
+        print("Invalid input. Please enter a valid positive number.")
 
 
-# prompt the user for a number
-number = float(input('Please Enter a Positive Number: '))
-
-tolerance = 0.00001 # number of decimeal places to approximate to be accurate to 5 decimal places
+tolerance = 0.00001 # number of decimal places to approximate to be accurate to 5 decimal places
 
 # calculate the approximate square root of the number
 # using Newton's method
@@ -35,8 +43,9 @@ def newton_method(number, tolerance):
 root, count = newton_method(number, tolerance)
 
 # print the approximate square root of the number 
-print(f'The Approximate Square Root of {number} ' 
-      f'(to 5 Decimal Place) is {root:.5f} and it took {count} iterations to reach this value')
+print(f'The Approximate Square Root of {number} = {root:.5f}' 
+      f'(to 5 Decimal Places).' 
+      f'\nIt took {count} iterations to reach this value.')
 
 
 # reference: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
