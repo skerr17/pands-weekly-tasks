@@ -17,4 +17,4 @@ Throughout the semester there were weekly tasks assigned to the topics covered i
 ## Table of Contenets 
 
 - Week 1: **hellowordld.py** - Which was the intial program to test the establish environment set up.
-- Week 2: **
+- Week 2: **bank.py** - This program prompts the user for two Cent amounts and returns the sum amount in Euro.
