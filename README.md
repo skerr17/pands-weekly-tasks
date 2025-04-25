@@ -18,4 +18,5 @@ Throughout the semester there were weekly tasks assigned to the topics covered i
 
 - Week 1: **hellowordld.py** - Which was the intial program to test the establish environment set up.
 - Week 2: **bank.py** - This program prompts the user for two Cent amounts and returns the sum amount in Euro. With additional user inout error handling.
-- Week 3: **accouts.py** - This program a 10 characther long account number and output only the last 4 digitls showing the first 6 as "X's". Also outlines assumptions where applicable.  
+- Week 3: **accouts.py** - This program a 10 characther long account number and output only the last 4 digitls showing the first 6 as "X's". Also outlines assumptions where applicable and user input validation (must be an alphanumeric). 
+- week 4: 

@@ -16,7 +16,7 @@ while True:
     # prompt the user for their bank account number
     bank_account_number = input("Please enter your bank account number: ").strip()
 
-    # check if the input is an aphanumeric string
+    # check if the input is an aphanumeric string - Reference: https://www.w3schools.com/python/ref_string_isalnum.asp
     if not bank_account_number.isalnum():
         print("Invalid input. Please enter a valid alphanumeric bank account number.")
         continue  # prompt again if the input is invalid
