@@ -22,4 +22,5 @@ Throughout the semester there were weekly tasks assigned to the topics covered i
 - Week 4: **collatz.py** - This program sks the user to input any positive interger and outputs the successive values of the following calculations if even divide by 2, if odd multiply by three and add one. The program ends when the current value is 1.
 - Week 5: **weekday.py** - This program outputs weather or not today is a weekday. 
 - Week 6: **squareroot.py** - This program takes a positive floating-point number as an input and outputs an approximation of its square root. Using Newton Method of estimating square roots. With user input validation.
-- Week 7: **es.py** - This program reads in a txt file (**mobydick.py**) and counts the number of a certain letter in it.  
+- Week 7: **es.py** - This program reads in a txt file (**mobydick.py**) and counts the number of a certain letter in it. Including user input error handling.
+- Week 8: - This program displays a normal distriution of numbers as a histogram with a plot fuction of $h(x)=x^3 where x = 1-10$. Saving the histogram to **normal_dist_and_hx.png**. 

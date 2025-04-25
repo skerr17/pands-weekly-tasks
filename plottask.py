@@ -1,3 +1,5 @@
+# plottask.py
+# Week 8's Weekly Task
 # This program displays 
 # a histogam of a normal distribution of 1000 values
 # with a mean of 5 and standard deviation of 2,
@@ -34,6 +36,9 @@ plt.legend(['h(x)=x^3','Normal Distribution'])
 
 # add grid
 plt.grid(True)
+
+# show the plot
+#plt.show() # uncomment this line to display the plot
 
 # save plot as png
 plt.savefig('normal_dist_and_hx.png') 
