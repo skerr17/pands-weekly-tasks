@@ -32,8 +32,8 @@ def count_es_in_file(filename):# function that counts the "e's" in the file
             # count the number of "e's" in the file's text
             e_count = text.count("e")
 
-        print(f'The number of \'e\'s in the file is: {e_count} '
-            f'\nWhich is {e_count / char_count * 100:.2f}% of all characters in the file')
+        print(f'The number of \'e\'s in the file is: {e_count}.'
+            f'\nWhich is {e_count / char_count * 100:.2f}% of all characters in the file.')
     except FileNotFoundError: # if the file is not found display an error message
         print(f'Error: The File "{filename}" was not found!!')
     except ZeroDivisionError: # due to calulating the percentage of "e's" in the file if we get a ZeroDivisionError this means the file is empty

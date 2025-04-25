@@ -44,8 +44,8 @@ root, count = newton_method(number, tolerance)
 
 # print the approximate square root of the number 
 print(f'The Approximate Square Root of {number} = {root:.5f}' 
-      f'(to 5 Decimal Places).' 
-      f'\nIt took {count} iterations to reach this value.')
+      f' (to 5 Decimal Places).' 
+      f'\nIt took {count} iterations of Newton\'s Method to reach this value.')
 
 
 # reference: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
